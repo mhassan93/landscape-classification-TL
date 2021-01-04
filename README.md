@@ -54,3 +54,4 @@ After loading the pretrained model I attached 2 fully connected layers on top of
   <b>Predicted: Street</b>
 </p>
 <hr>
+Note: The code for Data Augmentation is there in the notebook but has been commented out to avoid mistakes during training. If needed, the code for data augmentation and its training can be used by removing the commented portion of the code.
