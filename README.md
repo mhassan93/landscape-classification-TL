@@ -18,13 +18,9 @@ Instead of training a custom model from scratch, I used one of pretrained models
 
 
 <hr>
-For training I used retrain.py script (provided by TF). First it created bottleneck files with every image's cache in order to speed up training (only the last layer is not frozen, so a particular image always has the same output from the previous layers, regardless of the last layer. Therefore we compute these values once and save in .txt files). Next we have to specify a few hyperparameters (train-val-test ratio, training and validation batch sizes, learning rate, number of training steps) and a few directories (where to save final model, summaries for TensorBoard, where to get data from). You can find it in params.txt file. Then training is started. You can see how the loss was decreasing during training
-
-A bit suprisingly train, validation and test accuracies were 100%, even without much hyperparameters tuning
+After loading the pretrained model I attached 2 fully connected layers on top of it before the final classification layer. The activations for the fully connected layers were ReLu and the activation for classification layer was softmax. Categorical Cross Entropy loss was used as this was a multi-class classification problem. Stochastic gradient descent optimizer was used with a learning rate of 0.001, decay of 1e-7 and momentum of 0.9. The model was trained for 10 epochs with 64 batch size and the maximum training accuracy achieved on these settings was 98.8% while maximum validation accuracy was 91.4%. After training was finished, upon testing on previously unseen samples, test accuracy came out to be 89.6%. The results and a few of correctly classified samples are listed below
 
 <hr>
-<p align="center"><b>The confusion matrix for the model is shown below</b></p>
-
 <p align="center">
   <img width="400" height="400" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Confusion%20Matrix.png"/><br/>
   <b>Confusion matrix</b>
