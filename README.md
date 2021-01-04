@@ -23,6 +23,15 @@ For training I used retrain.py script (provided by TF). First it created bottlen
 A bit suprisingly train, validation and test accuracies were 100%, even without much hyperparameters tuning
 
 <hr>
+<p align="center"><b>The confusion matrix for the model is shown below</b></p>
+
+<p align="center">
+  <img width="100" height="100" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Confusion%20Matrix.png"/><br/>
+  <b>Confusion matrix</b>
+</p>
+</hr>
+
+<hr>
 <p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 
 <p align="center">
