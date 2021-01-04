@@ -3,7 +3,7 @@
 
 I had a dataset of 6 types of landscape: <b>Buildings, Forest, Glacier, Mountains, Sea, Street</b>
 
-Instead of training a custom model from scratch, I used one of pretrained models available in keras namely VGG16 pretrained on Imagenet.
+Instead of training a custom model from scratch, I used one of pretrained models available in keras, namely VGG16, pretrained on Imagenet.
 
 <h4><p align="center">Some training samples</p></h4>
 
