@@ -8,10 +8,12 @@ Instead of training a custom model from scratch, I used one of pretrained models
 <h4><p align="center">Some training samples</p></h4>
 
 <p align="center">
-  <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image105.jpg'/>
-  <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image6.jpg'/>
-  <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image115.jpg'/>
-  <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image2.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/0.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/10.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/16.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/7.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/8.jpg'/>
+  <img width="200" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/9.jpg'/>
 </p>
 
 
