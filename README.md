@@ -26,22 +26,22 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 <p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 
 <p align="center">
-  <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test5.jpg"/><br/>
+  <img width="370" height="240" src=""/><br/>
   <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test2.jpeg"/><br/>
+  <img width="370" height="240" src=""/><br/>
   <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test3.jpg"/><br/>
+  <img width="370" height="240" src=""/><br/>
   <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test4.jpg"/><br/>
+  <img width="370" height="240" src=""/><br/>
   <b>Actual:            Predicted: </b>
 </p>
 <hr>
