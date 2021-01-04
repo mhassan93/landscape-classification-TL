@@ -35,7 +35,7 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 <p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 
 <p align="center">
-  <img width="100" height="100" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Glacier.png"/><br/>
+  <img width="350" height="200" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Glacier.png"/><br/>
   <b>Actual: Glacier</b>
   <b>Predicted: Glacier</b>
 </p>
