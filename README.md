@@ -26,7 +26,7 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 <p align="center"><b>The confusion matrix for the model is shown below</b></p>
 
 <p align="center">
-  <img width="350" height="200" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Confusion%20Matrix.png"/><br/>
+  <img width="400" height="400" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Confusion%20Matrix.png"/><br/>
   <b>Confusion matrix</b>
 </p>
 </hr>
