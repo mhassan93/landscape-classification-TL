@@ -1,11 +1,11 @@
 # Landscape Classification
-<h3> Transfer Learning on Inception v3 model using TensorFlow </h3>
+<h3> Transfer Learning on VGG16 model using Keras </h3>
 
-I had a dataset (130 instances per class) of 4 types of landscape: <b>Mountains, Beach, Forest, City</b>
+I had a dataset of 6 types of landscape: <b>Buildings, Forest, Glacier, Mountains, Sea, Street</b>
 
-The most suitable approach with such a small dataset is transfer learning. The model I used was <b>Inception v3</b>, which is trained on over 1M images from over 1000 classes. 
+Instead of training a custom model from scratch, I used one of pretrained models available in keras namely VGG16 pretrained on Imagenet.
 
-<h4><p align="center">Some training instances</p></h4>
+<h4><p align="center">Some training samples</p></h4>
 
 <p align="center">
   <img width="200" height="200" src='https://github.com/olafplacha/Landscape-Classification/blob/master/img/image105.jpg'/>
