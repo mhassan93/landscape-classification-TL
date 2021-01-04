@@ -8,12 +8,12 @@ Instead of training a custom model from scratch, I used one of pretrained models
 <h4><p align="center">Some training samples</p></h4>
 
 <p align="center">
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/0.jpg'/>
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/10.jpg'/>
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/16.jpg'/>
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/7.jpg'/>
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/8.jpg'/>
-  <img width="150" height="200" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/9.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/0.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/10.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/16.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/7.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/8.jpg'/>
+  <img width="150" height="150" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Images/9.jpg'/>
 </p>
 
 
@@ -27,26 +27,21 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test5.jpg"/><br/>
-  <b>City 98.2%</b>
+  <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test2.jpeg"/><br/>
-  <b>Beach 98.9%</b><br/>
+  <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test3.jpg"/><br/>
-  <b>Forest 99.3%</b><br/>
+  <b>Actual:            Predicted: </b>
 </p>
 
 <p align="center">
   <img width="370" height="240" src="https://github.com/olafplacha/Landscape-Classification/blob/master/img/test4.jpg"/><br/>
-  <b>Mountains 99.1%</b><br/>
+  <b>Actual:            Predicted: </b>
 </p>
 <hr>
-In order to compare the obtained accuracy I created a logistic regression classifier in TensorFlow (a really simple model, <b>much</b> simpler than Inception v3) that got 78.84% test accuracy. 
-<hr>
-In conclusion problem with classifying 4 distinct landscapes is not that difficult and can be tackled well with DL techniques. You can find the code for the logistic regression classifier in <a href="https://github.com/olafplacha/Landscape-Classification/blob/master/logistic_clf.ipynb">logistic_clf.ipnb</a>
-<hr>
-If you want to know more details about the project visit this <a href="https://www.youtube.com/watch?v=Qv2QHPvYvwo">link</a>
