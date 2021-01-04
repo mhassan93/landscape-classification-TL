@@ -26,22 +26,22 @@ A bit suprisingly train, validation and test accuracies were 100%, even without 
 <p align="center"><b>Below you can see a few testing instances with classes probabilities</b></p>
 
 <p align="center">
-  <img width="370" height="240" src=""/><br/>
-  <b>Actual:            Predicted: </b>
+  <img width="370" height="240" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Glacier.png"/><br/>
+  <b>Actual: Glacier           Predicted: Glacier </b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src=""/><br/>
-  <b>Actual:            Predicted: </b>
+  <img width="370" height="240" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Mountains.png"/><br/>
+  <b>Actual: Mountains           Predicted: Mountains</b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src=""/><br/>
-  <b>Actual:            Predicted: </b>
+  <img width="370" height="240" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/building.png"/><br/>
+  <b>Actual: Building           Predicted: Building</b>
 </p>
 
 <p align="center">
-  <img width="370" height="240" src=""/><br/>
-  <b>Actual:            Predicted: </b>
+  <img width="370" height="240" src="https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/street.png"/><br/>
+  <b>Actual: Street           Predicted: Street</b>
 </p>
 <hr>
