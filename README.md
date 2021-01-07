@@ -1,9 +1,9 @@
 # Landscape Classification
-<h3> Transfer Learning on VGG16 model using Keras </h3>
+<h3>Comparison of transfer learning using VGG16, ResNet50, and InceptionV3 </h3>
 
 I had a dataset of 6 types of landscape: <b>Buildings, Forest, Glacier, Mountains, Sea, Street</b>
 
-Instead of training a custom model from scratch, I used one of pretrained models available in keras, namely VGG16, pretrained on Imagenet.
+Instead of training a custom model from scratch, pretrained models available in keras, VGG16, ResNet50, and InceptionV3 were used. The pre-trained weights of imagenet were used. 
 
 <h4><p align="center">Some training samples</p></h4>
 
