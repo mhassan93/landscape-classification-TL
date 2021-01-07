@@ -23,7 +23,7 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 <hr>
 <p align = "center">Comparison of models under different training settings</p>
 <p align="center">
-  <img width="150" height="175" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
+  <img src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
   <img width="150" height="175" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
 </p>
 <hr>
