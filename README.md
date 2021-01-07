@@ -18,9 +18,7 @@ Instead of training a custom model from scratch, I used one of pretrained models
 
 
 <hr>
-After loading the pretrained model I attached 2 fully connected layers on top of it before the final classification layer. The activations for the fully connected layers were ReLu and the activation for classification layer was softmax. Categorical Cross Entropy loss was used as this was a multi-class classification problem. Stochastic gradient descent optimizer was used with a learning rate of 0.001, decay of 1e-7 and momentum of 0.9. The model was trained for 10 epochs with 64 batch size and the maximum training accuracy achieved on these settings was 98.8% while maximum validation accuracy was 91.4%. After training was finished, upon testing on previously unseen samples, test accuracy came out to be 89.6%. The results and a few of correctly classified samples are listed below.
-
-
+After loading the pretrained models avialable with keras, 2 fully connected layers were added before the final classification layer. The activations for the fully connected layers were ReLu and the activation for classification layer was softmax. Categorical Cross Entropy loss was used as this was a multi-class classification problem. Stochastic gradient descent optimizer was used with a learning rate of 0.001, decay of 1e-7 and momentum of 0.9. The models were trained under two different set of conditions. First, they were trained for 30 epochs to study the speed of learning for each model. Then the models were trained with early stopping but under the condition that if the validation loss did not decrease for 6 continuous epochs, the model training would be stopped. This yielded two sets of results which are shown below in the form of graphs and tables.
 <hr>
 <p align="center">
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20ResNet50.png'/>
