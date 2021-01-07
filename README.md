@@ -41,6 +41,6 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 <p align = "center">Tables with quantitative comparison of base models on differnt training settings are shown below</p>
 <p align="center">
   <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
-  <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
+  <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/ES%20Training.png'/>
 </p>
 <hr>
