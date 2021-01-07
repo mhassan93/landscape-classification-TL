@@ -20,10 +20,25 @@ Instead of training a custom model from scratch, I used one of pretrained models
 <hr>
 After loading the pretrained model I attached 2 fully connected layers on top of it before the final classification layer. The activations for the fully connected layers were ReLu and the activation for classification layer was softmax. Categorical Cross Entropy loss was used as this was a multi-class classification problem. Stochastic gradient descent optimizer was used with a learning rate of 0.001, decay of 1e-7 and momentum of 0.9. The model was trained for 10 epochs with 64 batch size and the maximum training accuracy achieved on these settings was 98.8% while maximum validation accuracy was 91.4%. After training was finished, upon testing on previously unseen samples, test accuracy came out to be 89.6%. The results and a few of correctly classified samples are listed below.
 
+
 <hr>
-<p align = "center">Comparison of models under different training settings</p>
+<p align = "center">Validation and training loss progress graphs for training of models under both settings are shown below</p>
+<p align="center">
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
+</p>
+<p align="center">
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+</p>
+<hr>
+
+<hr>
+<p align = "center">Tables with quantitative comparison of base models on differnt training settings are shown below</p>
 <p align="center">
   <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
-  <img width="1000" height="500" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
 </p>
 <hr>
