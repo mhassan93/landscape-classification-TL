@@ -22,17 +22,19 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 
 
 <hr>
-<p align = "center">Validation and training loss progress graphs for training of models under both settings are shown below</p>
 <p align="center">
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.pngg'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
 </p>
+<p align = "center">Validation and training loss progress graphs for training of models when all models were trained for 30 epochs</p>
+
 <p align="center">
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
 </p>
+<p align = "center">Validation and training loss progress graphs for training of models when all models were trained until early stopping</p>
 <hr>
 
 <hr>
