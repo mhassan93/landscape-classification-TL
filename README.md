@@ -23,7 +23,7 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 
 <hr>
 <p align="center">
-  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20ResNet.png'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20ResNet50.png'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20VGG16.png'/>
   <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
 </p>
