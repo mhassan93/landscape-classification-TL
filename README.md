@@ -24,14 +24,14 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 <hr>
 <p align = "center">Validation and training loss progress graphs for training of models under both settings are shown below</p>
 <p align="center">
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.pngg'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
 </p>
 <p align="center">
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
-  <img width="400" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
+  <img width="400" height="230" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Plot%20Inception.png'/>
 </p>
 <hr>
 
@@ -39,6 +39,6 @@ After loading the pretrained model I attached 2 fully connected layers on top of
 <p align = "center">Tables with quantitative comparison of base models on differnt training settings are shown below</p>
 <p align="center">
   <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
-  <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training Early Stopping.jpg'/>
+  <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/Training%2030%20Epochs.png'/>
 </p>
 <hr>
