@@ -50,4 +50,6 @@ After loading the pretrained models avialable with keras, 2 fully connected laye
   <img width="700" height="300" src='https://github.com/mhassan93/landscape-classification-TL/blob/main/Results/ES%20Training.png'/>
 </p>
 <hr>
+```
 Note: Remove the early stopping callback from model.fit function if you want to train for a fixed number of epochs.
+```
