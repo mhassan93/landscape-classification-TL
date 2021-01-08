@@ -52,5 +52,4 @@ After loading the pretrained models avialable with keras, 2 fully connected laye
 <hr>
 ```
 Note: Remove the early stopping callback from model.fit function if you want to train for a fixed number of epochs.
-
 ```
